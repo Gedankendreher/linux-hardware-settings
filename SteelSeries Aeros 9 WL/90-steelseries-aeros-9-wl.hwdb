@@ -15,6 +15,7 @@
 # This works for both, 2.4MHz wireless mode and
 # bluetooth.
 evdev:input:b0003v1038p1858e0111-e0,1,4,11,14,k71*
+evdev:input:b0003v1038p185Ae0111-e0,1,4,11,14,k71*
 evdev:name:Aerox 9 WL Keyboard:*
  KEYBOARD_KEY_7001e=key_kp1
  KEYBOARD_KEY_7001f=key_kp2
