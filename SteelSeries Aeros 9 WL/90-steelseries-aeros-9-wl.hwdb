@@ -1,0 +1,31 @@
+# SteelSeries Aerox 9 WL Mouse (bluetooth mode)
+#  1 = left button
+#  2 = right button
+#  4 = middle button
+#  8 = m-left button
+# 16 = m-right button
+# 32 = DPI switch
+# (currently I'm happy with the default settings)
+#mouse:bluetooth:v0111p185a:name:Aerox 9 WL Mouse:*
+
+# Numeric 10 key block on the left side of the mouse:
+# We change the configuration to provide
+# numeric 10 key pad instead of number row of regular
+# keyboard.
+# This works for both, 2.4MHz wireless mode and
+# bluetooth.
+evdev:input:b0003v1038p1858e0111-e0,1,4,11,14,k71*
+evdev:name:Aerox 9 WL Keyboard:*
+ KEYBOARD_KEY_7001e=key_kp1
+ KEYBOARD_KEY_7001f=key_kp2
+ KEYBOARD_KEY_70020=key_kp3
+ KEYBOARD_KEY_70021=key_kp4
+ KEYBOARD_KEY_70022=key_kp5
+ KEYBOARD_KEY_70023=key_kp6
+ KEYBOARD_KEY_70024=key_kp7
+ KEYBOARD_KEY_70025=key_kp8
+ KEYBOARD_KEY_70026=key_kp9
+ KEYBOARD_KEY_70027=key_kp0
+ KEYBOARD_KEY_7002d=key_kpslash
+ KEYBOARD_KEY_7002e=key_kpasterisk
+
